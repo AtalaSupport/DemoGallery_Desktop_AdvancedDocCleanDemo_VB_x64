@@ -5,7 +5,7 @@ after images side by side and provides access to each property of each available
 Requires a license of DotImage Document Imaging and DotImage Advanced Document Cleanup to 
 run the compiled demo.
 
-This is the VB.NET version. We Also have a [C# version](https://github.com/AtalaSupport/DemoGallery_Desktop_AdvancedDocCleanDemo_CS_x86) available.
+This is the VB.NET version. We Also have a [C# version](https://github.com/AtalaSupport/DemoGallery_Desktop_AdvancedDocCleanDemo_CS_x64) available.
 
 
 ## Licensing
@@ -42,6 +42,7 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 - Remove those referneces
 - Open the NuGet Package Manger from `Tools -> NuGet Package Manager -> Manage NuGet Packages for this Solution`
 - Browse for and install  Atalasoft.DotImage.WinControls.x64 - It will pull in DotImage Document Imaging (the base SDK) and our windows controls and shared dll
+- Browse for and install Atalasoft.AdvancedDocClean.x64 - required for the Advanced Document Cleanup commands
 - Browse for and install Atalasoft.Dwg.x64. (optional if you wish to have support for DWG and other CADD files)
 - Browse for and install Atalasoft.Dicom.x64. (optional if you wish to have support for Dicom files)
 - Browse for and install Atalasoft.Heif.x64. (optional if you wish to have support for HEIF/HEIC files)
